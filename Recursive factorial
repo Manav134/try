@@ -1,0 +1,11 @@
+l = int(input("Enter a positive number to find factorial"))
+
+def fact(n):
+    a = n- 1
+    if n ==1:
+        return 1
+    else:
+        return n * fact(a)
+        
+
+print(fact(l))
